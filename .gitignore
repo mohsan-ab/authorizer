@@ -1,9 +1,19 @@
+### Go ###
 # Binaries for programs and plugins
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
+/engine
+/app/app
+
+# Enviroment files
+*.env
+*.envDebug
+
+# Debug files
+.vscode
 
 # Test binary, built with `go test -c`
 *.test
@@ -13,3 +23,7 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+### Go Patch ###
+/vendor/
+/Godeps/
